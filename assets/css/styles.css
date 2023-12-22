@@ -141,6 +141,7 @@ main h2, main p {
     background-color: #314453;
     padding: 1rem;
     gap: 1rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .skill-card img, .skill-card p {
