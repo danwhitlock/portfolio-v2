@@ -113,3 +113,46 @@ main h2, main p {
     margin-bottom: 2rem;
 }
 
+/* Skills */
+
+.skills {
+    margin: 5rem auto;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    gap: 2rem;
+    width: 80%;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #314453;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.skill-card img, .skill-card p {
+    background-color: #314453;
+} 
+
+.skill-desc {
+    text-align: center;
+}
+
+.skill-icon {
+    height: 10rem;
+    width: auto;
+}
+
