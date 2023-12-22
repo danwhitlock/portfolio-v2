@@ -14,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 a {
@@ -45,6 +46,7 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--primary-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
@@ -76,4 +78,24 @@ nav ul {
 .menu-button:hover {
     color: var(--tertiary-color);
     transition: var(--transition);
+}
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+main img {
+    height: 20rem;
+    width: 20rem;
+}
+
+main h2, main p {
+    padding: 0.5rem 0rem;
+    line-height: 1.5rem;
 }
