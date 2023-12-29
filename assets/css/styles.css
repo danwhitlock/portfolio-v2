@@ -263,3 +263,24 @@ main h2, main p {
     background-color: #314453;
 }
 
+/* Profile Links */
+
+.profile-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 1%;
+    bottom: 50%;
+}
+
+.profile-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: var(--transition);
+}
+
+.profile-icon:hover {
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+}
