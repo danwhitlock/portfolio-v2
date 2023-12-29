@@ -143,6 +143,7 @@ main h2, main p {
     padding: 1rem;
     gap: 1rem;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .skill-card img, .skill-card p {
@@ -219,7 +220,7 @@ main h2, main p {
     max-width: 40rem;
     margin: 0 auto;
     padding: 0.9rem;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     background-color: #314453;
 }
@@ -235,13 +236,14 @@ main h2, main p {
 
 .form-control textarea {
     min-height: 6rem;
+    margin-bottom: 0.75rem;
 }
 
 .input-field {
     width: 100%;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     outline: none;
 }
