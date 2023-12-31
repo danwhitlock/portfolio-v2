@@ -106,8 +106,9 @@ main h2, main p {
 /* About Me */
 
 .about-me {
-    padding: 1rem 5rem;
+    padding: 6rem 5rem 1rem 5rem;
     line-height: 1.5rem;
+    margin-top: 5rem;
 }
 
 .about-me h2 {
@@ -123,6 +124,7 @@ main h2, main p {
 
 .skills {
     margin: 5rem auto;
+    padding-top: 6rem;
 }
 
 .skills h2 {
@@ -167,7 +169,7 @@ main h2, main p {
 /* Projects */
 
 .projects {
-    padding: 2rem 0rem;
+    padding: 6rem 0rem 2rem 0rem;
     margin-top: 2rem;
 }
 
@@ -215,6 +217,7 @@ main h2, main p {
 
 .contact {
     margin-top: 2rem;
+    padding-top: 6rem;
 }
 
 .contact h2 {

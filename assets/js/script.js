@@ -1,4 +1,4 @@
-// Nav Menu (720px)
+// Nav Menu (720px and less)
 
 const nav = document.querySelector("nav");
 const menuButton = document.querySelector(".menu-button");
@@ -15,11 +15,22 @@ navLink.forEach((link) =>
         menuUl.classList.remove('show');
     })
 );
+
 // Scroll to Top Button
 
 const scrollToTop = document.querySelector(".scroll-to-top");
 
 scrollToTop.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        left:0,
+        behavior: "smooth",
+    })
+});
+
+const scrollToTopSmall = document.querySelector(".scroll-to-top-small");
+
+scrollToTopSmall.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         left:0,
