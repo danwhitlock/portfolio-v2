@@ -320,6 +320,7 @@ footer {
 
 @media only screen and (max-width: 720px) {
 
+    /* Nav @ 720px */
     nav {
         padding: 1rem 1rem;
     }
@@ -346,4 +347,26 @@ footer {
     nav ul.show {
         transform: translateX(0);
     }
+
+    /* Main @ 720px */
+
+    main {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    /* About Me @ 720px */
+
+    .about-me {
+        padding: 1rem 3rem;
+    }
+
+    /* Skills @ 720px */
+
+    
 }
