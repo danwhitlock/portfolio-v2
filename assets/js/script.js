@@ -8,7 +8,13 @@ menuButton.addEventListener('click', () => {
     menuUl.classList.toggle('show');
 })
 
+const navLink = document.querySelectorAll(".navbar-link");
 
+navLink.forEach((link) => 
+    link.addEventListener("click", () => {
+        menuUl.classList.remove('show');
+    })
+);
 // Scroll to Top Button
 
 const scrollToTop = document.querySelector(".scroll-to-top");
