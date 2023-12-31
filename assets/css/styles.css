@@ -276,7 +276,7 @@ main h2, main p {
 .profile-links {
     display: flex;
     position: fixed;
-    left: 2%;
+    left: 1%;
     bottom: 1%;
 }
 
@@ -292,11 +292,15 @@ main h2, main p {
     height: 3.5rem;
 }
 
+.icons-small-screens {
+    display: none;
+}
+
 /* Scroll to Top */
 
 .scroll-to-top {
     position: fixed;
-    right: 2%;
+    right: 1%;
     bottom: 1%;
 }
 
@@ -367,6 +371,14 @@ footer {
         padding: 1rem 3rem;
     }
 
+    .about-me h2 {
+        text-align: left;
+    }
+    
+    .about-me p {
+        text-align: left;
+    }
+
     /* Skills @ 720px */
 
     .skill-icon {
@@ -389,6 +401,32 @@ footer {
 
 @media only screen and (max-width: 420px) {
 
+    .skill-icon {
+        height: 3rem;
+    }
 
+    .skills-container {
+        flex-direction: column;
+    }
 
+    .skill-card {
+        flex-direction: row;
+        width: 12rem;
+    }
+
+    .contact-container {
+        max-width: 20rem;
+    }
+
+    .icons-small-screens {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .profile-links, .scroll-to-top {
+        display: none;
+    }
 }
