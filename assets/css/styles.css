@@ -342,4 +342,8 @@ footer {
     .menu-button {
         display: block;
     }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
 }
