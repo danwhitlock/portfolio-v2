@@ -316,7 +316,7 @@ footer {
     text-align: center;
 }
 
-/* Media Queries */
+/* Media Queries*/
 
 @media only screen and (max-width: 720px) {
 
@@ -368,5 +368,26 @@ footer {
 
     /* Skills @ 720px */
 
+    .skill-icon {
+        height: 5rem;
+        width: auto;
+    }
+
+    /* Projects @ 720px */
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    /* Contact @ 720px */
+
+    .contact-container {
+        max-width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
     
+
 }
