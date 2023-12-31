@@ -74,6 +74,7 @@ nav ul {
     font-size: 2rem;
     cursor: pointer;
     border: 0;
+    display: none;
 }
 
 .menu-button:hover {
@@ -313,4 +314,32 @@ main h2, main p {
 footer {
     padding: 3rem;
     text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 720px) {
+
+    nav {
+        padding: 1rem 1rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        position: fixed;
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    .menu-button {
+        display: block;
+    }
 }
